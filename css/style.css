@@ -1,0 +1,52 @@
+.container{
+    border: 1px dashed black;
+    height: 90vh;
+
+}
+
+.section{
+    height: 100%;
+}
+
+.contact{
+    max-height: 400px;
+    overflow: auto;
+}
+
+.mine{
+    background-image: url(../img/mine.jpg);
+}
+
+.avatar{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.notify{
+    background-color: #8EDAFC;
+}
+
+.bell{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #8EDAFC;
+}
+
+.chat{
+    height: 500px;
+    overflow: auto;
+}
+
+.sent{
+    align-self: flex-end;
+    background-color: #D5F9BA;
+}
+
+.received{
+    background-color: #FFFFFF;
+}
