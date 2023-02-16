@@ -1,15 +1,19 @@
-.container{
-    border: 1px dashed black;
-    height: 90vh;
-
+body{
+    background: linear-gradient(
+        to bottom,
+        #009688 0vh,
+        #009688 15vh,
+        #DADBD3 15vh,
+        #DADBD3 100vh
+    );
 }
 
 .section{
-    height: 100%;
+    background-color: #FFFFFF;
 }
 
 .contact{
-    max-height: 400px;
+    max-height: 450px;
     overflow: auto;
 }
 
@@ -33,7 +37,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: #FFFFFF;
     color: #8EDAFC;
 }
 
